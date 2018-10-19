@@ -19,10 +19,7 @@ int main(void) {
     fgets (arr,sizeof(arr),stdin);
 
     //Each time a character is read, it will be added to the count
-   /* for (i = 0; i < strlen(arr); i++)
-    {
-        count++;
-    }*/
+
    while (arr[count]!= '\0') {
        count++;
    }
